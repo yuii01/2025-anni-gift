@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.intro-section {
+  height: 100vh;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Barriecito", system-ui;
+}
+
+.down-arrow {
+  margin-top: 20px;
+  font-size: 2rem;
+  animation: bounce 2s infinite;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(10px); }
+}
