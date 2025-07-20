@@ -7,6 +7,7 @@
     cursor: pointer;
     color: #975188;
     background-color: #6d6498;
+    perspective: 1000px;
 }
 
 .message-card:hover {

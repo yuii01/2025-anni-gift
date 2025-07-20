@@ -1,6 +1,7 @@
 import './index.css';
 import './app.css';
 import IntroSection from './IntroSection';
+import MessageBoard from './MessageBoard';
 
 function scrollToMessages() {
   const messagesSection = document.getElementById('messages').scrollIntoView({behavior: 'smooth'});
@@ -40,6 +41,7 @@ function App() {
 
       {/* Scroll to here */}
       <section id="messages">
+        <MessageBoard messages={messages} />
         
       </section>
     </div>
