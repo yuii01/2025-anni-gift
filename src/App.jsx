@@ -35,12 +35,9 @@ function App() {
   return (
     <div className="app">
       <IntroSection onScrollDown={scrollToMessages} />
-
-      {/* messages used in the actual board */}
-      
-
+    
       {/* Scroll to here */}
-      <section id="messages">
+      <section id="messages-section">
         <MessageBoard messages={messages} />
         
       </section>

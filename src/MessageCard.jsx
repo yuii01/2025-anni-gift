@@ -11,13 +11,13 @@ export default function MessageCard( {text, author, image} ) {
         >
             <div className="card-inner">
                 {/* front side */}
-                <div class="card-front">
+                <div className="card-front">
                     <p className="text-message">"{text}"</p>
                     <p className="message-author">— {author}</p>
                 </div>
 
                 {/* back side */}
-                <div class="card-back">
+                <div className="card-back">
                     <img src={image} alt={author} className="message-image" />
                 </div>
                 

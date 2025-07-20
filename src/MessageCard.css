@@ -8,10 +8,11 @@
     color: #975188;
     background-color: #6d6498;
     perspective: 1000px;
+    display: flex;
 }
 
 .message-card:hover {
-  width: 45vw;
+  width: 45vh;
   height: 55vh;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .message-card.flipped .card-inner {
-    transform: rotateY('180');
+    transform: rotateY(180deg);
 }
 
 .card-front, .card-back {
@@ -39,11 +40,12 @@
     padding: 2rem;
     border-radius: 10px;
     box-sizing: border-box;
+    display: flex;
     
 }
 
 .card-back {
-    transform: rotateY('180');
+    transform: rotateY(180deg);
 }
 
 .message-author {
