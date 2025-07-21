@@ -1,13 +1,16 @@
 import { useState } from 'react';
 import "./MessageCard.css";
 
-export default function MessageCard( {text, author, image} ) {
+export default function MessageCard({ text, author, image, color }) {
     const [flipped, setFlipped] = useState(false);
 
     return (
         <div 
             className={`message-card ${flipped ? 'flipped' : ''}`}
             onClick={() => setFlipped(!flipped)}
+            style={{
+                backgroundColor: color
+            }}
         >
             <div className="card-inner">
                 {/* front side */}
@@ -20,9 +23,7 @@ export default function MessageCard( {text, author, image} ) {
                 <div className="card-back">
                     <img src={image} alt={author} className="message-image" />
                 </div>
-                
             </div>
-
         </div>
     )
 }
