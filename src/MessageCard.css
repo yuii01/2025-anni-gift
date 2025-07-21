@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 .message-card {
-    width: 50vh;
+    width: calc(45vw - 2rem);
     height: 50vh;
     margin: 1rem;
     cursor: pointer;
@@ -9,6 +9,7 @@
     background-color: #6d6498;
     perspective: 1000px;
     display: flex;
+    box-sizing: border-box;
 }
 
 .card-inner {
@@ -31,10 +32,8 @@
     backface-visibility: hidden;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 2rem;
     border-radius: 10px;
-    box-sizing: border-box;
     display: flex;
     
 }
@@ -52,7 +51,6 @@
 .text-message {
     font-family: 'Sour Gummy', sans-serif;
     font-size: 5rem;
-    color: black;
 
 }
 
@@ -62,5 +60,4 @@
     object-fit: contain;
     border-radius: 12px;
     padding: 1rem;
-    box-sizing: border-box;
 }

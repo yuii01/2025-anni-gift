@@ -12,7 +12,7 @@ export default function MessageCard( {text, author, image} ) {
             <div className="card-inner">
                 {/* front side */}
                 <div className="card-front">
-                    <p className="text-message">"{text}"</p>
+                    <p className="text-message">{text}</p>
                     <p className="message-author">— {author}</p>
                 </div>
 

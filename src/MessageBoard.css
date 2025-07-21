@@ -1,11 +1,9 @@
 .message-grid {
-  padding: 2rem;
   background-color: #fdf6f9;
   color: #333;
   grid-template-columns: repeat(2, 1fr);
-  gap: 7vh;
+  gap: 1vh;
   display: grid;
   justify-items: center;
-  width: 100%;
-  
+  box-sizing: border-box;
 }
