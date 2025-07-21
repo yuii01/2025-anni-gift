@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 .message-card {
-    width: calc(45vw - 2rem);
+    width: 100%;
     height: 50vh;
-    margin: 1rem;
+    margin: 0;
     cursor: pointer;
     color: #975188;
     background-color: #6d6498;
     perspective: 1000px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
 }
 
 .card-inner {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     position: relative;
     transition: transform 0.6s ease;
     transform-style: preserve-3d;
     background-color: #dddaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .message-card.flipped .card-inner {
@@ -27,14 +32,15 @@
 
 .card-front, .card-back {
     position: absolute;
-    width: 100%;
     height: 100%;
     backface-visibility: hidden;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    align-items: center;
+    padding: 1rem;
     border-radius: 10px;
     display: flex;
+    box-sizing: border-box;
     
 }
 
@@ -44,20 +50,20 @@
 
 .message-author {
     font-family: "Barriecito", system-ui;
-    font-size: 5rem;
+    font-size: 1rem;
 
 }
 
 .text-message {
     font-family: 'Sour Gummy', sans-serif;
-    font-size: 5rem;
+    font-size: 1rem;
 
 }
 
 .message-image {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     border-radius: 12px;
-    padding: 1rem;
+    padding: 0.5rem;
 }

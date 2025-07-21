@@ -1,4 +1,3 @@
-import './index.css';
 import './app.css';
 import IntroSection from './IntroSection';
 import MessageBoard from './MessageBoard';
@@ -35,7 +34,7 @@ function App() {
   return (
     <div className="app">
       <IntroSection onScrollDown={scrollToMessages} />
-      
+
       <div id="messages-section">
         <MessageBoard messages={messages} /> {/* Scroll to here */}
       </div>      
