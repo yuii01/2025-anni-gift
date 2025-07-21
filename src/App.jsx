@@ -4,7 +4,7 @@ import IntroSection from './IntroSection';
 import MessageBoard from './MessageBoard';
 
 function scrollToMessages() {
-  const messagesSection = document.getElementById('messages').scrollIntoView({behavior: 'smooth'});
+  const messagesSection = document.getElementById('messages-section').scrollIntoView({behavior: 'smooth'});
   
 }
 
@@ -35,12 +35,11 @@ function App() {
   return (
     <div className="app">
       <IntroSection onScrollDown={scrollToMessages} />
-    
-      {/* Scroll to here */}
-      <section id="messages-section">
-        <MessageBoard messages={messages} />
+      
+      <div id="messages-section">
+        <MessageBoard messages={messages} /> {/* Scroll to here */}
+      </div>      
         
-      </section>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 .message-card {
-    width: 40vh;
+    width: 50vh;
     height: 50vh;
     margin: 1rem;
     cursor: pointer;
@@ -9,11 +9,6 @@
     background-color: #6d6498;
     perspective: 1000px;
     display: flex;
-}
-
-.message-card:hover {
-  width: 45vh;
-  height: 55vh;
 }
 
 .card-inner {
@@ -50,13 +45,14 @@
 
 .message-author {
     font-family: "Barriecito", system-ui;
-    font-size: 1.2rem;
+    font-size: 5rem;
 
 }
 
 .text-message {
     font-family: 'Sour Gummy', sans-serif;
-    font-size: 1rem;
+    font-size: 5rem;
+    color: black;
 
 }
 

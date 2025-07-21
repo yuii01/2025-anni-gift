@@ -1,18 +1,11 @@
-.message-board {
+.message-grid {
   padding: 2rem;
   background-color: #fdf6f9;
   color: #333;
-  text-align: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 7vh;
-  margin-right: 3vh;
-  margin-left: 3vh;
-  
-}
-
-.message-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5vh; 
   justify-items: center;
+  width: 100%;
+  
 }
