@@ -1,7 +1,7 @@
 import './messages.css';
 import IntroSection from './IntroSection';
 import MessageBoard from './MessageBoard';
-import Header from './Header';
+// import Header from './Header';
 
 function scrollToMessages() {
   const messagesSection = document.getElementById('messages-section').scrollIntoView({behavior: 'smooth'});
@@ -54,4 +54,4 @@ function Messages() {
   );
 }
 
-export default App;
+export default Messages;
