@@ -8,7 +8,6 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -19,6 +18,13 @@ html, body {
   background-color: #ff6f91;
   border-radius: 5px;
   border: 2px solid #ffe4ec;
+}
+
+/* TODO: FIX */
+::-webkit-scrollbar:hover {
+  width: 15px;
+  transition: ease-in-out;
+  transition-duration: 3ms;
 }
 
 /* Sticky header */
@@ -43,7 +49,7 @@ html, body {
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
   font-size: 2rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.15); */
 }
 
 /* Navigation aligned right */
