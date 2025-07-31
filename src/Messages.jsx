@@ -37,6 +37,62 @@ function Messages() {
       author: "Minati",
       image: "",
       color: "#fef9e7"
+    },
+
+    {
+      text: "Wazup, waawazs, gg, hago, golf go pew pew, volleyball tourney was fun we gotta run it back",
+      author: "Jonathan choi",
+      image: "/images/jonathan1.png",
+      color: "#E5E7E9"
+    },
+
+    {
+      text: "Hi Austyn, You’ve been a great friend since 7th grade. I had a lot of fun with you in Carson and TJ. I miss being stand partners with you in orchestra and playing on the 5ft nets during volleyball.  I wish  we can play more volleyball in the future even if golf gets in the way and hopefully we have classes together this year. Have a great one!",
+      author: "Belgutei Naran-Erdene",
+      image: "/images/default.png",
+      color: "#ebf5fb"
+    },
+
+    {
+      text: "Hi Austyn, Bro you gotta teach me how to topspin. Anyway your a pretty cool dude and im glad we met this year, we better have classes together next year. Also, you should do vb, its sm better than golf.",
+      author: "Calvin Lieu",
+      image: "/images/default.png",
+      color: "#fbf3f8"
+    },
+
+    {
+      text: "Annyeonghaseyo austyn kim thanks for being a chill guy in latin bro You are the goat for real I dont get how you are so cracked at everything Im looking forward towards next year have a great one man",
+      author: "Eliot Lee",
+      image: "/images/eliot1.png",
+      color: "#fef9e7"
+    },
+
+    {
+      text: "Hey Austin, Your super chill and hella athletic. It was great getting to know you this year. Since your kcc officer now, we’ll prob see each other a lot next year and I’m looking forward to it.",
+      author: "Jayden Yang",
+      image: "/images/jayden1.png",
+      color: "#E5E7E9"
+    },
+    
+    {
+      text: "Austyn u da besh bro [enter] But fr, U like the goat at golf and goated at pretty much everything u do. Keep being you and have a great sophomore year and every year after that, even when I’m gone. [pause] GYATTTT(sorry i literally have no pics of u :( )",
+      author: "TB Mai",
+      image: "/images/tb1.png",
+      color: "#ebf5fb"
+    },
+
+    {
+      text: "Hi Austyn, Thanks for being a chill guy for MUN and just on the bus. Glad I got to know you this year! Stay goated lmao.",
+      author: "Christine Qiao",
+      image: "/images/christine1.png",
+      color: "#fbf3f8"
+    },
+
+    {
+      text: "CS was peak for lack of a better adjective. You also helped me clutch my grade from a B+ to the A- I deserved 😤😤 I could care less abt the grade tho, an I hope Im in another class w u next year. (🥺) See u sophomore year.",
+      author: "Noah",
+      image: "/images/noah1.png",
+      color: "#fef9e7"
     }
 
   ];
