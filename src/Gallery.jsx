@@ -1,3 +1,4 @@
+import { m } from 'framer-motion';
 import './Gallery.css';
 
 export default function Gallery() {
@@ -13,35 +14,74 @@ export default function Gallery() {
       image: "/images/sophia1.png"
     },
     {
-      title: "Message Wall Hits 10",
-      description: "Celebrating when the board hit 10 unique messages!",
-      image: "/images/celebration.png"
+      title: "the game before hoco",
+      image: "/images/hoco.JPEG"
     },
     {
-      title: "Minati's Minimalist Tribute",
-      description: "Even without words, this message left a mark.",
-      image: "/images/minati.png"
+      title: "us at the spelling bee:)",
+      image: "/images/8th.JPEG"
+    },
+    {
+      title: "first snow",
+      image: "/images/snow.JPEG"
+    },
+    {
+      title: "our hoco!",
+      image: "/images/hoco.JPEG"
+    },
+    {
+      title: "hoco flowers!!!!",
+      image: "/images/flower.JPEG"
+    },
+    {
+      title: "stuck in the rainn",
+      image: "/images/rainy.JPEG"
+    },
+    {
+      title: "my little polar bear",
+      image: "/images/bear.JPEG"
+    },
+    {
+      title: "i borrowed your coat",
+      image: "/images/coat.JPEG"
+    },
+    {
+      title: "EARRINGSS",
+      image: "/images/earring.JPEG"
+    },
+    {
+      title: "kcc shennaniganns",
+      image: "/images/kcc.JPEG"
+    },
+    {
+      title: "went to see your bball game!!",
+      image: "/images/bball.JPEG"
+    },
+    {
+      title: "our first date ever (?)???",
+      image: "/images/skating.JPEG"
+    },
+    {
+      title: "me in your jacket",
+      image: "/images/me.JPEG"
     }
   ];
 
   return (
     <div className="gallery">
-      <h1 className="gallery-title">🎉 One Year of the Hub 🎉</h1>
-      <p className="gallery-subtitle">A celebration of memories, messages, and milestones.</p>
+      <h1 className="gallery-title">Welcome to the Gallery</h1>
+      {/* <p className="gallery-subtitle">A celebration of memories, messages, and milestones.</p> */}
 
       <div className="gallery-grid">
         {anniversaryItems.map((item, index) => (
           <div key={index} className="gallery-item">
             <img src={item.image} alt={item.title} className="gallery-image" />
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
+            <h3 className="gallery-heading">{item.title}</h3>
           </div>
         ))}
       </div>
 
-      <div className="gallery-footer">
-        <p>Want to contribute to next year’s wall? Submit a message, photo, or memory through the Messages page!</p>
-      </div>
+    
     </div>
   );
 }

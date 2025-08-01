@@ -1,0 +1,72 @@
+.frontCover {
+  font-family: "Sour Gummy", system-ui;
+  background-color: #fff0f5;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Minimalist greeting section */
+.centeredText {
+  max-width: 800px;
+  text-align: center;
+}
+
+.centeredText h1 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.centeredText h1:first-child {
+  font-family: "Barriecito", system-ui;
+  font-size: 2.5rem;
+  color: #ff4d88;
+  text-shadow: 1px 1px 0 #fff;
+  margin-bottom: 2rem;
+}
+
+/* Personal message box with styling */
+.personalMessage {
+  max-width: 800px;
+  padding: 2rem;
+  background-color: #fffafc;
+  border-radius: 2rem;
+  box-shadow: 0 6px 16px rgba(255, 105, 180, 0.1);
+  border: 2px solid #ffc4d6;
+  text-align: center;
+}
+
+.personalMessage h2 {
+  font-family: "Barriecito", system-ui;
+  font-size: 2rem;
+  color: #ff4d88;
+  margin-bottom: 1rem;
+}
+
+.personalMessage p {
+  font-family: "Sour Gummy", system-ui;
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.personalImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.personalImages img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}

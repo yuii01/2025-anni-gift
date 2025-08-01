@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .gallery {
   padding: 2rem;
   text-align: center;
+  font-family: "Barriecito", system-ui;
 }
 
 .gallery-title {
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .gallery-subtitle {
@@ -16,27 +20,39 @@
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
 }
 
+/* Gallery card wraps image + heading tightly */
 .gallery-item {
-  background-color: #fdfdfd;
-  padding: 1rem;
+  background-color: transparent;
+  padding: 0;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  max-width: 300px;
+  text-align: center;
+  max-width: fit-content;
+  box-shadow: none;
 }
 
+/* Image fits its content naturally */
 .gallery-image {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 0.75rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
 }
 
-.gallery-footer {
-  margin-top: 2rem;
-  font-style: italic;
-  color: #777;
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+
+/* Optional heading style */
+.gallery-heading {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-family: "Sour Gummy", system-ui;
+  color: #444;
 }

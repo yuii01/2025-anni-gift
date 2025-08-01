@@ -33,9 +33,9 @@ function Messages() {
     },
 
     {
-      text: "",
+      text: "Dear Austyn, I can’t believe we became such good friends in just one year. I’m so glad you were on my bus, and you made MUN actually fun this year so thank you! You’re so talented and funny, and I wish you the very best birthday. P.S. still can’t believe you remember me from my twoset hoodie- chalant much?? 😝",
       author: "Minati",
-      image: "",
+      image: "/images/minati1.png",
       color: "#fef9e7"
     },
 
@@ -49,14 +49,14 @@ function Messages() {
     {
       text: "Hi Austyn, You’ve been a great friend since 7th grade. I had a lot of fun with you in Carson and TJ. I miss being stand partners with you in orchestra and playing on the 5ft nets during volleyball.  I wish  we can play more volleyball in the future even if golf gets in the way and hopefully we have classes together this year. Have a great one!",
       author: "Belgutei Naran-Erdene",
-      image: "/images/default.png",
+      image: "/images/belgutei1.jpg",
       color: "#ebf5fb"
     },
 
     {
       text: "Hi Austyn, Bro you gotta teach me how to topspin. Anyway your a pretty cool dude and im glad we met this year, we better have classes together next year. Also, you should do vb, its sm better than golf.",
       author: "Calvin Lieu",
-      image: "/images/default.png",
+      image: "/images/calvin1.jpg",
       color: "#fbf3f8"
     },
 
