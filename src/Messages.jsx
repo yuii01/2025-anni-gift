@@ -1,4 +1,4 @@
-import './messages.css';
+import './Messages.css';
 import IntroSection from './IntroSection';
 import MessageBoard from './MessageBoard';
 // import Header from './Header';
